@@ -252,7 +252,8 @@ background: #fff;}
 /*-------------------------------------------------*/
 #cuerpo_index 
 {background: #fff url("bible-ga29c5e098_1920.jpg") no-repeat fixed right center;
-}
+    height: 100vh;
+width: 100vw;}
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
@@ -321,7 +322,7 @@ word-spacing: 25vh:}
 margin: 0vh 0 0 0;
 justify-content: center;
 align-items: center;
-background: rgba(255, 255, 255, .9);
+background: rgba(255, 255, 255, 1);
 font-family: MonteCarlo-Regular;
 font-size: 5vh;
 text-align: center;
@@ -356,7 +357,7 @@ background: #fff;
 color: #000;
 height: 20vw;
 width: 70vw;
-font-size: 3vh;
+font-size: 5vh;
 font-weight: 100;
 font-family: MonteCArlo-Regular;
 letter-spacing: .25rem;
