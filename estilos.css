@@ -29,14 +29,10 @@ body
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
 #cuerpo_index 
-{background: #fff url("bible-ga29c5e098_1920.jpg") no-repeat fixed right center;
-    height: 100vh;
-width: 100vw;}
+{background: #fff url("bible-ga29c5e098_1920.jpg") no-repeat fixed right center;}
 
 #cuerpo_recursos
-{background: #fff url("stones-g381f3bf21_1920.jpg") no-repeat fixed center center;
-height: 100vh;
-width: 100vw;}
+{background: #fff url("stones-g381f3bf21_1920.jpg") no-repeat fixed center center;}
 
 #cuerpo_por_venir
 {background: #fff url("clock-g53f479a4b_1920.jpg") no-repeat fixed center center;
@@ -64,6 +60,40 @@ justify-content: center;
 align-items: center;}
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
+#logo_index_cabecera_mobil
+{display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0;
+margin: 0;
+width: 100vw;
+font-family: Inspiration-Regular;
+font-size: 20vh;
+font-weight: 100;
+text-align: center;
+text-shadow: .25vh .25vh .75vh rgba(0, 0, 0, 1);
+line-height: 20vh;
+color: #fff;
+word-spacing: 25vh:}
+
+#logo_index_cabecera_mobil_2
+{display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0;
+margin: 0;
+width: 100vw;
+font-family: Inspiration-Regular;
+font-size: 10vh;
+font-weight: 100;
+text-align: center;
+text-shadow: .25vh .25vh .75vh rgba(0, 0, 0, 1);
+line-height: 15vh;
+color: #fff;
+word-spacing: 25vh:}
+
 #logo_cabecera_mobil
 {display: flex;
 flex-direction: column;
@@ -289,11 +319,11 @@ width: 100vw;}
 .punto_articulo p 
 {font-family: sans-serif;
     font-size: 2.5vh;
-font-weight: 100;
+font-weight: 300;
 line-height: 3.25vh;
 margin: 2.5vh 0;
 text-align: justify;
-letter-spacing: -.1vh;}
+letter-spacing: 0vh;}
 
 .punto_articulo b
 {font-weight: 600;}
