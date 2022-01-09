@@ -29,7 +29,7 @@ body
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
 #cuerpo_index 
-{background: #fff url("bible-ga29c5e098_1920.jpg") no-repeat fixed right center;}
+{background: #fff url("icbpvvzla_index_mobil.png") no-repeat fixed center center;}
 
 #cuerpo_recursos
 {background: #fff url("stones-g381f3bf21_1920.jpg") no-repeat fixed center center;}
@@ -49,15 +49,19 @@ width: 100vw;}
 /*-------------------------------------------------*/
 .cabecera
 {display: flex;
-flex-direction: column;
-height: 100vh;
+flex-direction: row;
+box-sizing: border-box;
+height: 10vh;
 width: 100vw;
-background: rgba(0, 0, 0, .05);
-position: relative;
-padding: 0;
+position: fixed;
+top: 0;
+left: 0;
+padding: 0 4vh 0 2vh;
 margin: 0;
-justify-content: center;
-align-items: center;}
+justify-content: space-between;
+align-items: center;
+background: #fff;
+box-shadow: .5vh .5vh 1vh rgba(0, 0, 0, .25);}
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
 #logo_index_cabecera_mobil
@@ -67,84 +71,27 @@ justify-content: center;
 align-items: center;
 padding: 0;
 margin: 0;
-width: 100vw;
 font-family: Inspiration-Regular;
-font-size: 20vh;
+font-size: 6vh;
 font-weight: 100;
 text-align: center;
-text-shadow: .25vh .25vh .75vh rgba(0, 0, 0, 1);
-line-height: 20vh;
-color: #fff;
+line-height: 10vh;
+color: #000;
 word-spacing: 25vh:}
-
-#logo_index_cabecera_mobil_2
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+#menu_cabecera
 {display: flex;
 flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 0;
-margin: 0;
-width: 100vw;
-font-family: Inspiration-Regular;
-font-size: 10vh;
-font-weight: 100;
-text-align: center;
-text-shadow: .25vh .25vh .75vh rgba(0, 0, 0, 1);
-line-height: 15vh;
-color: #fff;
-word-spacing: 25vh:}
+justify-content: space-evenly;
+height: 3vh;
+width: 3vh;}
 
-#logo_cabecera_mobil
-{display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 0;
-margin: 0;
-width: 100vw;
-font-family: Inspiration-Regular;
-font-size: 20vh;
-font-weight: 100;
-text-align: center;
-text-shadow: .25vh .25vh .75vh rgba(0, 0, 0, 1);
-line-height: 20vh;
-color: #fff;
-word-spacing: 25vh:}
-
-#logo_cabecera_mobil_2
-{display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 0;
-margin: 0;
-font-family: Inspiration-Regular;
-font-size: 7.5vh;
-font-weight: 100;
-text-align: center;
-text-shadow:.25vh .25vh .25vh rgba(0, 0, 0, 1);
-line-height: 12.5vh;
-color: #fff;
-word-spacing: 25vh:}
-
-#logo_cabecera_mobil_3
-{display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 0;
-margin: 0;
-font-family: Inspiration-Regular;
-font-size: 10vh;
-font-weight: 100;
-text-align: center;
-height: 100vh;
-width: 100vw;
-background: rgba(0, 0, 0, .5);
-text-shadow:.0vh .0vh .25vh rgba(0, 0, 0, 1);
-line-height: 12.5vh;
-color: #fff;
-word-spacing: 25vh:}
+#menu_cabecera_linea
+{height: .30vh;
+border-radius: .2vh;
+width: 3vh;
+background: #000;}
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
@@ -156,18 +103,19 @@ word-spacing: 25vh:}
 #texto_portada
 {display: flex;
     height: 50vh;
-margin: 0vh 0 0 0;
+margin: 100vh 0 0 0;
 justify-content: center;
 align-items: center;
 background: rgba(255, 255, 255, 1);
-font-family: MonteCarlo-Regular;
-font-size: 4vh;
+font-family: sans-serif;
+font-size: 2vh;
 text-align: center;
 padding: 0 3rem;
 box-sizing: border-box;
-font-weight: 000;
+font-weight: 200;
 letter-spacing: .25rem;
-line-height: 6vh;}
+line-height: 5vh;
+box-shadow: 0vh 0vh 1vh .5vh rgba(0, 0, 0, .15);}
 
 #texto_portada_sub_paginas
 {display: flex;
@@ -188,6 +136,44 @@ line-height: 11vh;}
 #texto_portada_sub_paginas h1
 {font-weight: 100;
 font-size: 10vh;}
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+.navegacion_movil
+{display: flex;
+flex-direction: column;
+width: 100vw;
+justify-content: center;
+align-items: center;
+box-sizing: border-box;
+background: rgba(255, 255, 255, 0);
+padding: 7.5vh 0 3.75vh 0;}
+
+.navegacion_movil a
+{display: flex;
+justify-content: center;
+align-items: center;
+background: #fff;
+color: #000;
+height: 15vw;
+width: 70vw;
+font-size: 1.65rem;
+font-weight: 900;
+font-family: sans-serif;
+letter-spacing: .25rem;
+border-radius: 50vh;
+text-decoration: none;
+margin: 0 0 3.5vh 0;
+box-shadow: .5vh .5vh 1vh rgba(0, 0, 0, .5);}
+
+a
+{text-decoration: none;
+color: #000;}
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
@@ -336,7 +322,6 @@ font-style: normal;}
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
-
 .navegacion_movil_serie
 {display: flex;
 flex-direction: column;
@@ -374,36 +359,7 @@ box-shadow: .5vh .5vh 1vh rgba(0, 0, 0, .5);}
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
-.navegacion_movil
-{display: flex;
-flex-direction: column;
-width: 100vw;
-justify-content: center;
-align-items: center;
-box-sizing: border-box;
-background: rgba(255, 255, 255, 0);
-padding: 7.5vh 0 3.75vh 0;}
 
-.navegacion_movil a
-{display: flex;
-justify-content: center;
-align-items: center;
-background: #fff;
-color: #000;
-height: 20vw;
-width: 70vw;
-font-size: 2vh;
-font-weight: 900;
-font-family: sans-serif;
-letter-spacing: .25rem;
-border-radius: 50vh;
-text-decoration: none;
-margin: 0 0 3.5vh 0;
-box-shadow: .5vh .5vh 1vh rgba(0, 0, 0, .5);}
-
-a 
-{text-decoration: none;
-color: #000;}
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
