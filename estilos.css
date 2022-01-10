@@ -125,7 +125,7 @@ background: none;
 border: none;
 cursor: pointer;
 margin: 0;}
-
+/*-------------------------------------------------*/
 #menu_cabecera img
 {height: 1.5rem;}
 /*-------------------------------------------------*/
@@ -150,7 +150,7 @@ background: #fff;
 font-family: sans-serif;
 font-size: 1.75rem;
 text-align: center;
-padding: 5rem 5rem 2.5rem 5rem;
+padding: 5rem;
 box-sizing: border-box;
 font-weight: 900;
 letter-spacing: 0rem;

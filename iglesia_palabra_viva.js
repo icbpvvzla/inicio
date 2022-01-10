@@ -1,6 +1,6 @@
 const botonMenuCabecera = document.querySelector("#menu_cabecera");
 const botonTopePagina = document.querySelector("#tope_pagina");
-const botonPaginaInicio = document.querySelector("#contenedor_botones_pantalla_inicio");
+const menuInicio = document.querySelector("#texto_portada");
 
 botonTopePagina.addEventListener("click", function () {
     window.scrollTo({
@@ -11,17 +11,9 @@ botonTopePagina.addEventListener("click", function () {
 });
 
 botonMenuCabecera.addEventListener("click", function () {
-    window.scrollTo({
-        top: 100000,
-        left: 0,
-        behavior: "smooth"
-    });
-});
-
-botonPaginaInicio.addEventListener("click", function () {
-    window.scrollTo({
-        top: 100000,
-        left: 0,
-        behavior: "smooth"
-    });
+    menuInicio.scrollIntoView({
+        behavior: "smooth",
+        block: "center",
+        inline: "nearest"
+    })
 });
