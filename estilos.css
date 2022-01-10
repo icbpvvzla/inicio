@@ -63,17 +63,21 @@ width: 100vw;}
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
 .cabecera
 {display: flex;
 flex-direction: row;
 box-sizing: border-box;
-height: 10vh;
+height: 7.5rem;
 width: 100vw;
 position: fixed;
 z-index: 100;
 top: 0;
 left: 0;
-padding: 0 4vh;
+padding: 0 2rem;
 margin: 0;
 justify-content: space-between;
 align-items: center;
@@ -81,34 +85,88 @@ background: #fff;
 box-shadow: .5vh .5vh 1vh rgba(0, 0, 0, .25);}
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
-#logo_index_cabecera_mobil
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+#logo_cabecera 
 {display: flex;
-flex-direction: column;
+    align-items: center;
+    height: 7.5rem;}
+/*-------------------------------------------------*/
+#logo_cabecera img
+{height: 5rem;}
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+#tope_pagina
+{display: flex;
+flex-direction: row;
 justify-content: center;
 align-items: center;
-padding: 0;
-margin: 0;
-font-family: Inspiration-Regular;
-font-size: 6vh;
-font-weight: 100;
-text-align: center;
-line-height: 10vh;
-color: #000;
-word-spacing: 25vh:}
+height: 2.5rem;
+width: 2.5rem;
+background: none;
+border: none;
+cursor: pointer;
+margin: 0 0 0 auto;}
+/*-------------------------------------------------*/
+#tope_pagina:active
+{background: #aaa;}
+/*-------------------------------------------------*/
+#tope_pagina img
+{height: 2rem;}
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
 #menu_cabecera
 {display: flex;
 flex-direction: column;
 justify-content: space-evenly;
-height: 3vh;
-width: 3vh;}
+height: 2.5rem;
+width: 2.5rem;
+background: none;
+border: none;
+cursor: pointer;
+margin: 1rem;}
 
-#menu_cabecera_linea
-{height: .30vh;
-border-radius: .2vh;
-width: 3vh;
-background: #000;}
+#menu_cabecera img
+{height: 2rem;}
+/*-------------------------------------------------*/
+#menu_cabecera:active
+{background: #aaa;}
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+#contenedor_botones_pantalla_inicio
+{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.5rem;
+    align-items: center;
+position: relative;
+z-index: 3;
+height: 15vh;
+background: none;
+margin: 80vh 0 0 0;}
+
+#contenedor_botones_pantalla_inicio button
+{display: block;
+height: 15vh;
+width: 15vh;
+border: none;
+box-sizing: border-box;
+padding: 1rem;
+background: rgba(255, 255, 255, 1);
+border-radius: 25rem;
+box-shadow: .5vh .5vh 1vh rgba(0, 0, 0, .25);
+font-size: 1.5rem;
+font-weight: 400;}
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
@@ -119,30 +177,30 @@ background: #000;}
 /*-------------------------------------------------*/
 #texto_portada
 {display: flex;
-    position: relative;
-    z-index: 2;
-    height: 50vh;
-margin: 100vh 0 0 0;
+position: relative;
+z-index: 2;
+height: 20rem;
+margin: 5vh 0 0 0;
 justify-content: center;
 align-items: center;
 background: #fff;
 font-family: sans-serif;
-font-size: 1.25rem;
+font-size: 1.5rem;
 text-align: center;
 padding: 0 3rem;
 box-sizing: border-box;
-font-weight: 200;
-letter-spacing: .25rem;
-line-height: 5vh;
-box-shadow: 0vh 0vh 1vh .5vh rgba(0, 0, 0, .15);}
+font-weight: 300;
+letter-spacing: 0rem;
+line-height: 3.75rem;
+box-shadow: 0vh .5vh 1vh rgba(0, 0, 0, .25);}
 
 #texto_portada_sub_paginas
 {display: flex;
-    position: relative;
-    z-index: 2;
-    height: 25vh;
-    width:  25vh;
-    border-radius: 100vh;
+position: relative;
+z-index: 2;
+height: 25vh;
+width:  25vh;
+border-radius: 100vh;
 margin: 100vh auto 0 auto;
 justify-content: center;
 align-items: center;
@@ -156,25 +214,6 @@ font-weight: 500;
 letter-spacing: .25rem;
 line-height: 5vh;
 box-shadow: 0vh 0vh 1vh .5vh rgba(0, 0, 0, .25);}
-
-#texto_portada_final
-{display: flex;
-    position: relative;
-    z-index: 2;
-    height: 50vh;
-margin: 0 0 0 0;
-justify-content: center;
-align-items: center;
-background: #fff;
-font-family: sans-serif;
-font-size: 1.25rem;
-text-align: center;
-padding: 0 3rem;
-box-sizing: border-box;
-font-weight: 300;
-letter-spacing: .25rem;
-line-height: 5vh;
-box-shadow: 0vh 0vh 1vh .5vh rgba(0, 0, 0, .15);}
 
 #texto_portada_sub_paginas h1
 {font-weight: 100;
@@ -198,26 +237,26 @@ justify-content: center;
 align-items: center;
 box-sizing: border-box;
 background: rgba(255, 255, 255, 0);
-padding: 7.5vh 0 3.75vh 0;
+padding: 5rem 0 2.5rem 0;
 z-index: 1;}
-
+/*-------------------------------------------------*/
 .navegacion_movil a
 {display: flex;
 justify-content: center;
 align-items: center;
 background: #fff;
 color: #000;
-height: 15vw;
-width: 70vw;
+height: 5rem;
+width: 30rem;
 font-size: 1.5rem;
-font-weight: 900;
+font-weight: 500;
 font-family: sans-serif;
-letter-spacing: .25rem;
-border-radius: 50vh;
+letter-spacing: 0rem;
+border-radius: .5rem;
 text-decoration: none;
-margin: 0 0 3.5vh 0;
-box-shadow: .5vh .5vh 1vh rgba(0, 0, 0, .5);}
-
+margin: 0 0 2.5rem 0;
+box-shadow: .5vh .5vh 1vh rgba(0, 0, 0, .25);}
+/*-------------------------------------------------*/
 a
 {text-decoration: none;
 color: #000;}
