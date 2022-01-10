@@ -32,9 +32,7 @@ body
 {height: 100vh;
 width: 100vw;
 background: #fff url("icbpvvzla_index_mobil.png") no-repeat fixed center center;
-position: relative;
-
-z-index: 1;}
+position: relative;}
 
 #cuerpo_index_horizontal
 {display: none;
@@ -42,9 +40,7 @@ height: 100vh;
 width: 100vw;
 background: #fff url("icbpvvzla_index_mobil_horizontal.png") no-repeat fixed center center;
 position: fixed;
-top: 0;
-left: 0;
-z-index: 1;}
+position: relative;}
 
 #cuerpo_recursos
 {background: #fff url("stones-g381f3bf21_1920.jpg") no-repeat fixed center center;}
@@ -154,11 +150,11 @@ background: #fff;
 font-family: sans-serif;
 font-size: 1.75rem;
 text-align: center;
-padding: 5rem 3rem 5rem 3rem;
+padding: 5rem 5rem 2.5rem 5rem;
 box-sizing: border-box;
 font-weight: 900;
 letter-spacing: 0rem;
-line-height: 2.5rem;}
+line-height: 3.5rem;}
 
 #texto_portada_sub_paginas
 {display: flex;
