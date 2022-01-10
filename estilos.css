@@ -41,18 +41,31 @@ width: 100vw;
 background: #fff url("icbpvvzla_index_mobil_horizontal.png") no-repeat fixed center center;
 position: relative;}
 
-#portada_ideal_y_relevante
+#portada_recursos
 {height: 100vh;
-    width: 100vw;
-    background: #fff url("ideal_y_relevante_portada.png") no-repeat fixed center center;
-    position: relative;}
+width: 100vw;
+background: #fff url("recursos_portada.png") no-repeat fixed bottom center;
+position: relative;}
 
-    #portada_ideal_y_relevante2
+#portada_recursos2
 {display: none;
     height: 100vh;
-    width: 100vw;
-    background: #fff url("ideal_y_relevante_portada_horizontal.png") no-repeat fixed center center;
-    position: relative;}
+width: 100vw;
+background: #fff url("recursos_portada_horizontal.png") no-repeat fixed center center;
+position: relative;}
+
+#portada_ideal_y_relevante
+{height: 100vh;
+width: 100vw;
+background: #fff url("ideal_y_relevante_portada.png") no-repeat fixed center center;
+position: relative;}
+
+#portada_ideal_y_relevante2
+{display: none;
+height: 100vh;
+width: 100vw;
+background: #fff url("ideal_y_relevante_portada_horizontal.png") no-repeat fixed center center;
+position: relative;}
 
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
