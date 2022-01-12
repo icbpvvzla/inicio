@@ -10,14 +10,16 @@ cabeceraGeneral.innerHTML = `
 <img src="icono_menu_cabecera.svg" alt="Icono para ir al menú de navegación de la web">
 </button>`;
 
-menuFinal.innerHTML = `<nav>
-<a href="index.html">Inicio</a>
-<a href="iglesias.html">Iglesias</a>
-<a href="creencias.html">Creencias</a>
-<a href="recursos.html">Recursos</a>
-<a href="trabajo.html">Trabajo</a>
-<a href="contacto.html">Contacto</a>
-<a href="apoya.html">Apoya</a>
+menuFinal.innerHTML = `
+<h2 id="titulo_menu">Menú general</h2>
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="iglesias.html">Iglesias</a>
+    <a href="creencias.html">Creencias</a>
+    <a href="recursos.html">Recursos</a>
+    <a href="trabajo.html">Trabajo</a>
+    <a href="contacto.html">Contacto</a>
+    <a href="apoya.html">Apoya</a>
 </nav>`;
 
 //CONSTANTES Y FUNCIONES PARA BOTONES DE CABECERA
@@ -31,7 +33,7 @@ menuFinal.innerHTML = `<nav>
 
 const botonMenuCabecera = document.querySelector("#menu_cabecera");
 const botonTopePagina = document.querySelector("#tope_pagina");
-const menuInicio = document.querySelector(".navegacion_movil");
+const menuInicio = document.querySelector("#titulo_menu");
 
 botonTopePagina.addEventListener("click", function () {
 window.scrollTo({
@@ -44,7 +46,7 @@ window.scrollTo({
 botonMenuCabecera.addEventListener("click", function () {
     menuInicio.scrollIntoView({
         behavior: "smooth",
-        block: "start",
+        block: "center",
         inline: "end"
     })
 });
