@@ -19,231 +19,8 @@ html
 font-family: sans-serif;}
 /*-------------------------------------------------*/
 body
-{background: none;}
-
-/*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
-/*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
-/*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
-/*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
-/*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
-/*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
-/*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
-/*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
-#cuerpo_index 
-{height: 100vh;
-width: 100vw;
-background: #fff url("icbpvvzla_index_mobil.png") no-repeat fixed center center;
-position: relative;
-font-size: 3rem;
-font-weight: 550;
-color: #fff;
-display: flex;
-padding: 0 3rem;
-box-sizing: border-box;
-justify-content: center;
-align-items: center;
-text-align: center;
-line-height: 5rem;
-letter-spacing: -.2rem;
-text-shadow: .1rem 0 .5rem rgba(0, 0, 0, .25);
-word-spacing: .1rem;}
-
-#cuerpo_index_horizontal
-{display: none;
-height: 100vh;
-width: 100vw;
-background: #fff url("icbpvvzla_index_mobil_horizontal.png") no-repeat fixed center center;
-position: relative;}
-/*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
-#portada_recursos
-{height: 100vh;
-width: 100vw;
-background: #fff url("recursos_portada.png") no-repeat fixed bottom center;
-position: relative;
-font-size: 4rem;
-font-weight: 550;
-color: #000;
-display: flex;
-justify-content: center;
-align-items: center;
-letter-spacing: -.2rem;
-text-shadow: .1rem .1rem .1rem #fff;}
-
-#portada_recursos2
-{display: none;
-    height: 100vh;
-width: 100vw;
-background: #fff url("recursos_portada_horizontal.png") no-repeat fixed center center;
-position: relative;
-font-size: 4rem;
-font-weight: 550;
-color: #000;
-justify-content: center;
-align-items: center;
-letter-spacing: -.2rem;}
-/*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
-#portada_ideal_y_relevante
-{height: 100vh;
-width: 100vw;
-background: #fff url("ideal_y_relevante_portada.png") no-repeat fixed center center;
-position: relative;
-font-size: 4rem;
-font-weight: 550;
-color: #000;
-display: flex;
-justify-content: center;
-align-items: center;
-letter-spacing: -.2rem;}
-
-#portada_ideal_y_relevante2
-{display: none;
-height: 100vh;
-width: 100vw;
-background: #fff url("ideal_y_relevante_portada_horizontal.png") no-repeat fixed center center;
-position: relative;
-font-size: 4rem;
-font-weight: 550;
-color: #000;
-justify-content: center;
-align-items: center;
-letter-spacing: -.2rem;}
-/*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
-#portada_iglesias
-{display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-width: 100vw;
-background: #fff url("iglesias_portada.png") no-repeat fixed center center;
-position: relative;
-font-size: 4rem;
-font-weight: 550;
-color: #000;
-display: flex;
-justify-content: center;
-align-items: center;
-letter-spacing: -.2rem;}
-
-#portada_iglesias2
-{display: none;
-height: 100vh;
-width: 100vw;
-background: #fff url("iglesias_portada_horizontal.png") no-repeat fixed center center;
-position: relative;
-font-size: 4rem;
-font-weight: 550;
-color: #000;
-justify-content: center;
-align-items: center;
-letter-spacing: -.2rem;}
-/*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
-#portada_creencias
-{height: 100vh;
-width: 100vw;
-background: #fff url("creencias_portada.png") no-repeat fixed center center;
-position: relative;
-font-size: 4rem;
-font-weight: 550;
-color: #fff;
-letter-spacing: -.2rem;
-display: flex;
-line-height: 90vh;
-justify-content: center;}
-
-#portada_creencias2
-{display: none;
-height: 100vh;
-width: 100vw;
-background: #fff url("creencias_portada_horizontal.png") no-repeat fixed center top;
-position: relative;
-font-size: 4rem;
-font-weight: 550;
-color: #fff;
-justify-content: center;
-align-items: center;
-letter-spacing: -.2rem;}
-/*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
-#portada_trabajo
-{height: 100vh;
-width: 100vw;
-background: #fff url("trabajo_portada.png") no-repeat fixed center center;
-position: relative;
-font-size: 4rem;
-font-weight: 550;
-color: #000;
-display: flex;
-justify-content: center;
-align-items: center;
-letter-spacing: -.2rem;
-text-shadow: .1rem .0rem .0rem #fff;
-}
-
-#portada_trabajo2
-{display: none;
-height: 100vh;
-width: 100vw;
-background: #fff url("trabajo_portada_horizontal.png") no-repeat fixed center center;
-position: relative;
-font-size: 4rem;
-font-weight: 550;
-color: #000;
-justify-content: center;
-align-items: center;
-letter-spacing: -.2rem;}
-/*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
-#portada_apoya
-{height: 100vh;
-width: 100vw;
-background: #fff url("apoya_portada.png") no-repeat fixed center center;
-position: relative;
-font-size: 4rem;
-font-weight: 550;
-color: #000;
-display: flex;
-justify-content: center;
-align-items: center;
-letter-spacing: -.2rem;}
-
-#portada_apoya2
-{display: none;
-height: 100vh;
-width: 100vw;
-background: #fff url("apoya_portada_horizontal.png") no-repeat fixed center center;
-position: relative;
-font-size: 4rem;
-font-weight: 550;
-color: #000;
-justify-content: center;
-align-items: center;
-letter-spacing: -.2rem;
-}
-/*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
-#portada_contacto
-{height: 100vh;
-width: 100vw;
-background: #fff url("contacto_portada.png") no-repeat fixed center center;
-position: relative;
-font-size: 4rem;
-font-weight: 550;
-color: #fff;
-display: flex;
-justify-content: center;
-align-items: center;
-letter-spacing: -.2rem;
-text-shadow: .0rem .1rem .0rem #000;}
-
-#portada_contacto2
-{display: none;
-height: 100vh;
-width: 100vw;
-background: #fff url("apoya_portada_horizontal.png") no-repeat fixed center center;
-position: relative;
-font-size: 4rem;
-font-weight: 550;
-color: #fff;
-justify-content: center;
-align-items: center;
-letter-spacing: -.2rem;}
+{background: none;
+max-width: 500px;}
 /*-----------------CABECERA-------------------------------------------------------------------------------------------------------------------*/
 /*-----------------CABECERA-------------------------------------------------------------------------------------------------------------------*/
 /*-----------------CABECERA-------------------------------------------------------------------------------------------------------------------*/
@@ -252,7 +29,6 @@ letter-spacing: -.2rem;}
 /*-----------------CABECERA-------------------------------------------------------------------------------------------------------------------*/
 /*-----------------CABECERA-------------------------------------------------------------------------------------------------------------------*/
 /*-----------------CABECERA-------------------------------------------------------------------------------------------------------------------*/
-
 .cabecera
 {display: flex;
 flex-direction: row;
@@ -270,11 +46,7 @@ justify-content: space-between;
 align-items: center;
 background: #fff;
 box-shadow: .5vh .5vh 1vh rgba(0, 0, 0, .25);}
-
-/*-------------------------------------------------*/
-/*-------------------------------------------------*/
-/*-------------------------------------------------*/
-/*-------------------------------------------------*/
+/*-----------------CABECERA-------------------------------------------------------------------------------------------------------------------*/
 #logo_cabecera 
 {display: flex;
 align-items: center;
@@ -282,10 +54,7 @@ height: 6.5rem;}
 /*-------------------------------------------------*/
 #logo_cabecera img
 {height: 4.5rem;}
-/*-------------------------------------------------*/
-/*-------------------------------------------------*/
-/*-------------------------------------------------*/
-/*-------------------------------------------------*/
+/*-----------------CABECERA-------------------------------------------------------------------------------------------------------------------*/
 #tope_pagina
 {display: flex;
 flex-direction: row;
@@ -303,10 +72,7 @@ margin: 0 1.5rem 0 auto;}
 /*-------------------------------------------------*/
 #tope_pagina img
 {height: 1.5rem;}
-/*-------------------------------------------------*/
-/*-------------------------------------------------*/
-/*-------------------------------------------------*/
-/*-------------------------------------------------*/
+/*-----------------CABECERA-------------------------------------------------------------------------------------------------------------------*/
 #menu_cabecera
 {display: flex;
 flex-direction: column;
@@ -382,6 +148,158 @@ box-shadow: .5vh .5vh 1vh rgba(0, 0, 0, .5);}
 a
 {text-decoration: none;
 color: #000;}
+/*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
+/*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
+/*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
+/*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
+/*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
+/*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
+/*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
+/*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
+#cuerpo_index 
+{display: flex;
+    height: 100vh;
+width: 100vw;
+background: #fff url("icbpvvzla_index_mobil.png") no-repeat fixed center center;
+position: relative;
+font-size: 3rem;
+font-weight: 550;
+color: #000;
+padding: 0 3rem;
+box-sizing: border-box;
+justify-content: center;
+align-items: center;
+text-align: center;
+line-height: 4.5rem;
+letter-spacing: -.2rem;
+word-spacing: .1rem;}
+/*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
+#portada_iglesias
+{display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+width: 100vw;
+background: #fff url("iglesias_portada.png") no-repeat fixed center center;
+font-size: 3rem;
+font-weight: 550;
+color: #000;
+padding: 0 3rem;
+box-sizing: border-box;
+justify-content: center;
+align-items: center;
+text-align: center;
+line-height: 4.5rem;
+letter-spacing: -.2rem;
+text-shadow: .1rem 0 .5rem rgba(0, 0, 0, .25);
+word-spacing: .1rem;}
+/*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
+#portada_recursos
+{height: 100vh;
+width: 100vw;
+background: #fff url("recursos_portada.png") no-repeat fixed bottom center;
+font-size: 3rem;
+font-weight: 550;
+color: #fff;
+display: flex;
+padding: 0 3rem;
+box-sizing: border-box;
+justify-content: center;
+align-items: center;
+text-align: center;
+line-height: 4.5rem;
+letter-spacing: -.2rem;
+text-shadow: .1rem .0rem .25rem rgba(10, 0, 0, .75);
+word-spacing: .1rem;}
+/*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
+#portada_creencias
+{height: 100vh;
+width: 100vw;
+background: #fff url("creencias_portada.png") no-repeat fixed center center;
+font-size: 3rem;
+font-weight: 550;
+color: #fff;
+display: flex;
+padding: 0 3rem;
+box-sizing: border-box;
+justify-content: center;
+align-items: center;
+text-align: center;
+line-height: 4.5rem;
+letter-spacing: -.2rem;
+text-shadow: .1rem 0 .5rem rgba(0, 0, 0, .25);
+word-spacing: .1rem;}
+/*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
+#portada_trabajo
+{height: 100vh;
+width: 100vw;
+background: #fff url("trabajo_portada.png") no-repeat fixed center center;
+font-size: 3rem;
+font-weight: 550;
+color: #fff;
+display: flex;
+padding: 0 3rem;
+box-sizing: border-box;
+justify-content: center;
+align-items: center;
+text-align: center;
+line-height: 4.5rem;
+letter-spacing: -.2rem;
+text-shadow: .1rem 0 .5rem rgba(0, 0, 0, .25);
+word-spacing: .1rem;}
+/*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
+#portada_apoya
+{height: 100vh;
+width: 100vw;
+background: #fff url("apoya_portada.png") no-repeat fixed center center;
+font-size: 3rem;
+font-weight: 550;
+color: #000;
+display: flex;
+padding: 0 3rem;
+box-sizing: border-box;
+justify-content: center;
+align-items: center;
+text-align: center;
+line-height: 4.5rem;
+letter-spacing: -.2rem;
+word-spacing: .1rem;}
+/*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
+#portada_contacto
+{height: 100vh;
+width: 100vw;
+background: #fff url("contacto_portada.png") no-repeat fixed center center;
+font-size: 3rem;
+font-weight: 550;
+color: #fff;
+display: flex;
+padding: 0 3rem;
+box-sizing: border-box;
+justify-content: center;
+align-items: center;
+text-align: center;
+line-height: 4.5rem;
+letter-spacing: -.2rem;
+text-shadow: .1rem 0 .5rem rgba(0, 0, 0, .25);
+word-spacing: .1rem;}
+/*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
+#portada_ideal_y_relevante
+{height: 100vh;
+width: 100vw;
+background: #fff url("ideal_y_relevante_portada.png") no-repeat fixed center center;
+font-size: 3rem;
+font-weight: 550;
+color: #fff;
+display: flex;
+padding: 0 3rem;
+box-sizing: border-box;
+justify-content: center;
+align-items: center;
+text-align: center;
+line-height: 4.5rem;
+letter-spacing: -.2rem;
+text-shadow: .1rem 0 .5rem rgba(0, 0, 0, .25);
+word-spacing: .1rem;}
 /*-----------------RECURSOS-------------------------------------------------------------------------------------------------------------------*/
 /*-----------------RECURSOS-------------------------------------------------------------------------------------------------------------------*/
 /*-----------------RECURSOS-------------------------------------------------------------------------------------------------------------------*/
@@ -597,16 +515,6 @@ box-shadow: .5vh .5vh 1vh rgba(0, 0, 0, .5);}
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
-
-/*-------------------------------------------------*/
-/*-------------------------------------------------*/
-/*-------------------------------------------------*/
-/*-------------------------------------------------*/
-/*-------------------------------------------------*/
-/*-------------------------------------------------*/
-/*-------------------------------------------------*/
-/*-------------------------------------------------*/
-
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
@@ -617,16 +525,11 @@ box-shadow: .5vh .5vh 1vh rgba(0, 0, 0, .5);}
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
-
-@media (max-height:450px) {
-#cuerpo_index 
-{display: none;}
-#cuerpo_index_horizontal
-{display: block;}
-
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
-}
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/

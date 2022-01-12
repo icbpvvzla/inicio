@@ -1,6 +1,5 @@
 const cabeceraGeneral = document.querySelector(".cabecera");
 const menuFinal = document.querySelector(".navegacion_movil");
-const textoPortada = document.querySelector("#cuerpo_index");
 
 cabeceraGeneral.innerHTML = `
 <a id="logo_cabecera" href="index.html"><img src="logo_icbpvvzla_header.svg" alt="Logo de Iglesia Cristiana Bíblica Palabra Viva"></a>
@@ -18,10 +17,8 @@ menuFinal.innerHTML = `<nav>
 <a href="recursos.html">Recursos</a>
 <a href="trabajo.html">Trabajo</a>
 <a href="contacto.html">Contacto</a>
-<a href="apoya.html">Apóyanos</a>
+<a href="apoya.html">Apoya</a>
 </nav>`;
-
-textoPortada.innerHTML = `Iglesias bíblicas<br>y centradas<br>en el evangelio`;
 
 //CONSTANTES Y FUNCIONES PARA BOTONES DE CABECERA
 //CONSTANTES Y FUNCIONES PARA BOTONES DE CABECERA
