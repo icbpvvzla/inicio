@@ -33,7 +33,20 @@ body
 {height: 100vh;
 width: 100vw;
 background: #fff url("icbpvvzla_index_mobil.png") no-repeat fixed center center;
-position: relative;}
+position: relative;
+font-size: 3rem;
+font-weight: 550;
+color: #fff;
+display: flex;
+padding: 0 3rem;
+box-sizing: border-box;
+justify-content: center;
+align-items: center;
+text-align: center;
+line-height: 5rem;
+letter-spacing: -.2rem;
+text-shadow: .1rem 0 .5rem rgba(0, 0, 0, .25);
+word-spacing: .1rem;}
 
 #cuerpo_index_horizontal
 {display: none;
@@ -310,7 +323,6 @@ margin: 0;}
 /*-------------------------------------------------*/
 #menu_cabecera:active
 {background: #aaa;}
-
 /*-----------------MENU-----------------------------------------------------------------------------------------------------------------------*/
 /*-----------------MENU-----------------------------------------------------------------------------------------------------------------------*/
 /*-----------------MENU-----------------------------------------------------------------------------------------------------------------------*/
@@ -346,7 +358,7 @@ justify-content: center;
 align-items: center;
 box-sizing: border-box;
 background: rgba(37, 25, 25, 0);
-padding: 0 0 1rem 0;
+padding: 2.5rem 0 1rem 0;
 z-index: 1;}
 /*-----------------MENU-----------------------------------------------------------------------------------------------------------------------*/
 .navegacion_movil a
