@@ -13,7 +13,7 @@ botonTopePagina.addEventListener("click", function () {
 botonMenuCabecera.addEventListener("click", function () {
     menuInicio.scrollIntoView({
         behavior: "smooth",
-        block: "center",
-        inline: "nearest"
+        block: "start",
+        inline: "end"
     })
 });
