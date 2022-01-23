@@ -19,8 +19,7 @@ html
 font-family: sans-serif;}
 /*-------------------------------------------------*/
 body
-{background: none;
-max-width: 500px;}
+{background: none;}
 /*-----------------CABECERA-------------------------------------------------------------------------------------------------------------------*/
 /*-----------------CABECERA-------------------------------------------------------------------------------------------------------------------*/
 /*-----------------CABECERA-------------------------------------------------------------------------------------------------------------------*/
@@ -33,15 +32,13 @@ max-width: 500px;}
 {display: flex;
 flex-direction: row;
 box-sizing: border-box;
-height: 6.5rem;
-width: 90vw;
-border-radius: 30rem;
-position: fixed;
+height: 7.5rem;
+width: 100vw;
+border-radius: .30rem;
+position: relative;
 z-index: 100;
-top: 1.5rem;
-left: 5vw;
 padding: 0 2rem;
-margin: 0 auto;
+margin: auto;
 justify-content: space-between;
 align-items: center;
 background: #fff;
@@ -131,10 +128,7 @@ border-radius: 15rem;
 text-decoration: none;
 margin: 0 0 1.75rem 0;
 box-shadow: .5vh .5vh 1vh rgba(0, 0, 0, .5);}
-/*-----------------MENU-----------------------------------------------------------------------------------------------------------------------*/
-a
-{text-decoration: none;
-color: #000;}
+
 /*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
 /*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
 /*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
@@ -440,11 +434,29 @@ box-sizing: border-box;
 max-width: 500px;
 margin: 0 auto;}
 
+.punto_articulo h1
+{color: #3394b3;
+margin: 2.5rem 0 2.5rem 0;
+padding: 0;
+font-family: sans-serif;
+font-weight: 900;
+font-size: 3.5rem;
+line-height: 4.5rem;
+text-align: left;
+border: none;
+letter-spacing: -.2rem;}
+
 .punto_articulo h2
-{font-size: 3rem;
-line-height: 4rem;
-letter-spacing: -.2rem;
-margin: 4rem 0 0 0;} 
+{color: #3394b3;
+    margin: 2.5rem 0 2.5rem 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+    text-align: left;
+    border: none;
+    letter-spacing: -.15rem;} 
 
 .punto_articulo p 
 {font-family: sans-serif;
@@ -457,13 +469,27 @@ letter-spacing: -.05rem;}
 
 .punto_articulo b
 {font-weight: 900;
+color: #414141;
     letter-spacing: -.05rem;}
 
 .punto_articulo em
-{color: #00f;
+{color: #3394b3;
 font-weight: 550;
 font-style: normal;
 letter-spacing: -.05rem;}
+
+.punto_articulo ul
+{padding: 0 2rem 0 1rem;}
+
+.punto_articulo li
+{list-style-type:disc;
+padding: 0 0 0 1rem;}
+
+a
+{text-decoration: underline;
+color: #414141;}
+
+
 /*--------------NAVEGACIÓN-SERIE------------------------------------------------------------------------------------------------------------*/
 /*--------------NAVEGACIÓN-SERIE------------------------------------------------------------------------------------------------------------*/
 /*--------------NAVEGACIÓN-SERIE------------------------------------------------------------------------------------------------------------*/

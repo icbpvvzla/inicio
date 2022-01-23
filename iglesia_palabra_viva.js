@@ -2,7 +2,7 @@ const cabeceraGeneral = document.querySelector(".cabecera");
 const menuFinal = document.querySelector(".navegacion_movil");
 
 cabeceraGeneral.innerHTML = `
-<a id="logo_cabecera" href="index.html"><img src="logo_icbpvvzla_header.svg" alt="Logo de Iglesia Cristiana Bíblica Palabra Viva"></a>
+<a id="logo_cabecera" href="index.html"><img src="LOGOipvvenezuela5.svg" alt="Logo de Iglesia Cristiana Bíblica Palabra Viva"></a>
 <button id="tope_pagina">
 <img src="icono_tope_pagina.svg" alt="Icono para regresar al tope de pagina">
 </button>
@@ -13,6 +13,7 @@ cabeceraGeneral.innerHTML = `
 menuFinal.innerHTML = `
 <h2 id="titulo_menu">Menú general</h2>
 <nav>
+    <a href="aprendiendo_de_salomon_1.html">Último sermón</a>
     <a href="index.html">Inicio</a>
     <a href="iglesias.html">Iglesias</a>
     <a href="creencias.html">Creencias</a>
