@@ -103,14 +103,15 @@ margin: 1rem 0 3rem 0;}
 {display: flex;
 position: relative;
 flex-direction: column;
-width: 100vw;
+max-width: 500px;
+margin: auto;
 justify-content: center;
 align-items: center;
 box-sizing: border-box;
 background: rgba(37, 25, 25, 0);
 padding: 2.5rem 0 1rem 0;
 z-index: 1;}
-/*-----------------MENU-----------------------------------------------------------------------------------------------------------------------*/
+
 .navegacion_movil a
 {display: flex;
 justify-content: center;
@@ -118,17 +119,29 @@ align-items: center;
 background: #fff;
 color: #000;
 height: 5rem;
-width: 20rem;
+max-width: 450px;
+width: 100%;
 font-size: 1.5rem;
 font-weight: 900;
 font-family: sans-serif;
 letter-spacing: .1rem;
 border: none;
-border-radius: 15rem;
+border-radius: .3rem;
 text-decoration: none;
 margin: 0 0 1.75rem 0;
-box-shadow: .5vh .5vh 1vh rgba(0, 0, 0, .5);}
+box-shadow: .5rem .5rem .5rem rgba(0, 0, 0, .45);}
 
+.navegacion_movil h2
+{color: #3394b3;
+margin: 2.5rem 0 2.5rem 0;
+padding: 0;
+font-family: sans-serif;
+font-weight: 900;
+font-size: 3.5rem;
+line-height: 4.5rem;
+text-align: left;
+border: none;
+letter-spacing: -.15rem;}
 /*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
 /*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
 /*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
@@ -440,7 +453,7 @@ margin: 2.5rem 0 2.5rem 0;
 padding: 0;
 font-family: sans-serif;
 font-weight: 900;
-font-size: 3.5rem;
+font-size: 3rem;
 line-height: 4.5rem;
 text-align: left;
 border: none;
@@ -502,33 +515,45 @@ color: #414141;}
 {display: flex;
 position: relative;
 flex-direction: column;
-width: 100vw;
+max width: 500px;
 justify-content: center;
 align-items: center;
 box-sizing: border-box;
 background: rgba(37, 25, 25, 0);
 padding: 0rem 0 2.5rem 0;}
-/*--------------NAVEGACIÓN-SERIE------------------------------------------------------------------------------------------------------------*/
-.navegacion_serie a
+
+.navegacion_serie > a
 {display: flex;
 align-items: center;
 background: #fff;
 color: #000;
 height: 5rem;
-width: 30rem;
+width: 450px;
+max-width: 100%;
 font-size: 1.5rem;
 font-weight: 900;
 font-family: sans-serif;
 letter-spacing: .1rem;
 border: none;
-border-radius: 15rem;
+border-radius: .3rem;
 text-decoration: none;
 text-align: left;
 padding: 0 2rem;
 box-sizing: border-box;
 margin: 0 0 1.75rem 0;
-box-shadow: .5vh .5vh 1vh rgba(0, 0, 0, .5);}
+box-shadow: .5vh .5vh 1vh rgba(0, 0, 0, .35);}
 
+.navegacion_serie h2
+{color: #3394b3;
+    margin: 2.5rem 0 2.5rem 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+    text-align: left;
+    border: none;
+    letter-spacing: -.15rem;}
 
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
