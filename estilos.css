@@ -459,13 +459,25 @@ text-align: left;
 border: none;
 letter-spacing: -.2rem;}
 
+.punto_articulo h1
+{color: #3394b3;
+    margin: 2.5rem 0 2.5rem 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 4.5rem;
+    text-align: left;
+    border: none;
+    letter-spacing: -.15rem;} 
+
 .punto_articulo h2
 {color: #3394b3;
     margin: 2.5rem 0 2.5rem 0;
     padding: 0;
     font-family: sans-serif;
     font-weight: 900;
-    font-size: 3.5rem;
+    font-size: 3rem;
     line-height: 4.5rem;
     text-align: left;
     border: none;
