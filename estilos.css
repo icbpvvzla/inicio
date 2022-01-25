@@ -453,6 +453,64 @@ a
 color: #414141;}
 
 
+/*------------CUESTIONARIOS--*/
+/*------------CUESTIONARIOS--*/
+/*------------CUESTIONARIOS--*/
+/*------------CUESTIONARIOS--*/
+
+.contenedor_cuestionario
+{display: flex;
+    flex-direction: column;
+background: #3394b3;
+margin: 2.5rem auto;
+max-width: 85vw;
+box-sizing: border-box;
+padding: 3rem;
+font-size: 1.7rem;
+line-height: 2.75rem;
+border-radius: .6rem;
+box-shadow: .5rem .5rem .5rem rgba(0, 0, 0, .5);
+color: #fff;}
+
+.contenedor_cuestionario h2
+{margin: 0 0 2.5rem 0;
+}
+
+.contenedor_cuestionario label
+{display: inline-block;
+    margin: 0 0 2.65rem 0;
+line-height: 2.65rem;}  
+
+.contenedor_cuestionario button
+{height: 4rem;
+    color: #fff;
+    font-weight: 900;
+    font-size: 1.5rem;
+    border: none;
+    background: #414141;
+    width: min-content;
+    padding: 0 5rem;
+    border-radius: .3rem;
+    margin: 2.5rem auto 0 auto;}
+
+#resultado
+{display: none;
+    background: #414141;
+color: #fff;
+width: 100%;
+text-align: center;
+line-height: 2.65rem;
+border-radius: .3rem;
+font-size: 1.5rem;
+font-weight: 900;
+padding: 1rem;
+box-sizing: border-box;
+margin: 2.5rem auto 0 auto;
+}
+
+
+
+
 /*--------------NAVEGACIÓN-SERIE------------------------------------------------------------------------------------------------------------*/
 /*--------------NAVEGACIÓN-SERIE------------------------------------------------------------------------------------------------------------*/
 /*--------------NAVEGACIÓN-SERIE------------------------------------------------------------------------------------------------------------*/

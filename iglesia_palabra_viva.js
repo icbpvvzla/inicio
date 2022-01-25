@@ -54,3 +54,26 @@ botonMenuCabecera.addEventListener("click", function () {
         inline: "end"
     })
 });
+
+//FUNCIÓN PARA QUIZZ
+//FUNCIÓN PARA QUIZZ
+//FUNCIÓN PARA QUIZZ
+//FUNCIÓN PARA QUIZZ
+//FUNCIÓN PARA QUIZZ
+//FUNCIÓN PARA QUIZZ
+
+const contenedorPuntuacionP1 = document.querySelector("#resultado");
+const puntuacionP1 = "hola";
+const pregunta1 = document.querySelector("#pregunta_1");
+
+function mostrarResultados() {
+    if (!document.querySelector("#p1o3").checked) {
+        contenedorPuntuacionP1.innerHTML = "Lo sentimos, respuesta incorrecta";
+    } else {
+        contenedorPuntuacionP1.innerHTML = "¡Respuesta correcta!";
+    }
+};
+
+function mostrarContenedor() {
+        contenedorPuntuacionP1.style.display = "block";
+};
