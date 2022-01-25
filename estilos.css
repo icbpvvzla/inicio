@@ -491,7 +491,7 @@ line-height: 2.65rem;}
     width: min-content;
     padding: 0 5rem;
     border-radius: .3rem;
-    margin: 2.5rem auto 0 auto;}
+    margin: 0 auto 2.65rem auto;}
 
 #resultado
 {display: none;
@@ -505,7 +505,7 @@ font-size: 1.5rem;
 font-weight: 900;
 padding: 1rem;
 box-sizing: border-box;
-margin: 2.5rem auto 0 auto;
+margin: 0 auto;
 }
 
 
