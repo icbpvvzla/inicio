@@ -1,5 +1,6 @@
 const cabeceraGeneral = document.querySelector(".cabecera");
 const menuFinal = document.querySelector(".navegacion_movil");
+const pieDePaginas = document.querySelector(".pie_de_pagina");
 
 cabeceraGeneral.innerHTML = `
 <a id="logo_cabecera" href="index.html">
@@ -12,7 +13,7 @@ cabeceraGeneral.innerHTML = `
 menuFinal.innerHTML = `
 <nav>
     <h2>Menú general</h2>
-    <a href="aprendiendo_de_salomon_1.html">Último sermón</a>
+    <a href="aprendiendo_de_salomon_2.html">Último sermón</a>
     <a href="index.html">Inicio</a>
     <a href="iglesias.html">Iglesias</a>
     <a href="creencias.html">Creencias</a>
@@ -21,6 +22,18 @@ menuFinal.innerHTML = `
     <a href="contacto.html">Contacto</a>
     <a href="apoya.html">Apoya</a>
 </nav>`;
+
+pieDePaginas.innerHTML = `
+    <nav>
+        <a href="aprendiendo_de_salomon_1.html">Último sermón</a>
+        <a href="index.html">Inicio</a>
+        <a href="iglesias.html">Iglesias</a>
+        <a href="creencias.html">Creencias</a>
+        <a href="recursos.html">Recursos</a>
+        <a href="trabajo.html">Trabajo</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="apoya.html">Apoya</a>
+    </nav>`;
 
 //CONSTANTES Y FUNCIONES PARA BOTONES DE CABECERA
 //CONSTANTES Y FUNCIONES PARA BOTONES DE CABECERA
