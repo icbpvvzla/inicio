@@ -401,7 +401,7 @@ margin: 0 auto;}
 {color: #3394b3;
     margin: 2.5rem 0 0rem 0;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif;
     font-weight: 900;
     font-size: 3rem;
     line-height: 4.5rem;
@@ -436,7 +436,7 @@ margin: 0 auto;}
 .punto_articulo p 
 {font-family: sans-serif;
 font-size: 1.65rem;
-font-weight: 100;
+font-weight: 300;
 line-height: 2.5rem;
 margin: 1.5rem 0;
 text-align: justify;
@@ -499,23 +499,23 @@ line-height: 2.65rem;}
     font-weight: 900;
     font-size: 1.8rem;
     border: none;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif;
     background: #414141;
     width: 100%;
     padding: 1.5rem 5rem;
     height: min-content;
-    border-radius: 30rem;
+    border-radius: .3rem;
     box-shadow: .5rem .5rem .5rem rgba(50, 50, 100, .5);
     margin: 0 auto 2.65rem auto;}
 
 #resultado
 {display: none;
-    background: #414141;
-color: #fff;
+    background: #fff;
+color: #3394b3;
 width: 100%;
 text-align: center;
 line-height: 2.65rem;
-border-radius: 30rem;
+border-radius: .3rem;
 font-size: 1.8rem;
 font-weight: 900;
 padding: 1rem;
