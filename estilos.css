@@ -152,7 +152,7 @@ letter-spacing: -.15rem;}
 /*-----------------PORTADAS-----------------------------------------------------------------------------------------------------------------------*/
 #cuerpo_index 
 {display: flex;
-    height: 100vh;
+height: 100vh;
 width: 100vw;
 background: #fff url("icbpvvzla_index_mobil.png") no-repeat fixed center center;
 position: relative;
@@ -399,39 +399,39 @@ margin: 0 auto;}
 
 .punto_articulo h1
 {color: #3394b3;
-    margin: 2.5rem 0 0rem 0;
-    padding: 0;
-    font-family: sans-serif;
-    font-weight: 900;
-    font-size: 3rem;
-    line-height: 4.5rem;
-    text-align: left;
-    border: none;
-    letter-spacing: -0rem;} 
+margin: 2.5rem 0 0rem 0;
+padding: 0;
+font-family: sans-serif;
+font-weight: 900;
+font-size: 3rem;
+line-height: 3.75rem;
+text-align: left;
+border: none;
+letter-spacing: -0rem;} 
 
 .punto_articulo h2
 {color: #3394b3;
-    margin: 2.5rem 0 0rem 0;
-    padding: 0;
-    font-family: sans-serif;
-    font-weight: 900;
-    font-size: 3rem;
-    line-height: 4.5rem;
-    text-align: left;
-    border: none;
-    letter-spacing: -0rem;} 
+margin: 2.5rem 0 0rem 0;
+padding: 0;
+font-family: sans-serif;
+font-weight: 900;
+font-size: 3rem;
+line-height: 3.5rem;
+text-align: left;
+border: none;
+letter-spacing: -0rem;} 
 
-    .punto_articulo h3
-    {color: #3394b3;
-        margin: 2.5rem 0 0rem 0;
-        padding: 0;
-        font-family: sans-serif;
-        font-weight: 900;
-        font-size: 1.65rem;
-        line-height: 2.65rem;
-        text-align: left;
-        border: none;
-        letter-spacing: -0rem;} 
+.punto_articulo h3
+{color: #3394b3;
+margin: 2.5rem 0 0rem 0;
+padding: 0;
+font-family: sans-serif;
+font-weight: 900;
+font-size: 1.65rem;
+line-height: 2.65rem;
+text-align: left;
+border: none;
+letter-spacing: -0rem;} 
 
 .punto_articulo p 
 {font-family: sans-serif;
@@ -445,7 +445,7 @@ letter-spacing: 0rem;}
 .punto_articulo b
 {font-weight: 550;
 color: #414141;
-    letter-spacing: 0rem;}
+letter-spacing: 0rem;}
 
 .punto_articulo em
 {color: #3394b3;
@@ -472,7 +472,7 @@ color: #414141;}
 
 .contenedor_cuestionario
 {display: flex;
-    flex-direction: column;
+flex-direction: column;
 background: #3394b3;
 margin: 2.5rem auto;
 max-width: 85vw;
@@ -485,32 +485,31 @@ box-shadow: .5rem .5rem .5rem rgba(0, 0, 0, .5);
 color: #fff;}
 
 .contenedor_cuestionario h2
-{margin: 0 0 2.5rem 0;
-}
+{margin: 0 0 2.5rem 0;}
 
 .contenedor_cuestionario label
 {display: block;
-    margin: 0 0 2.65rem 0;
+margin: 0 0 2.65rem 0;
 line-height: 2.65rem;}  
 
 .contenedor_cuestionario button
 {height: 4rem;
-    color: #fff;
-    font-weight: 900;
-    font-size: 1.8rem;
-    border: none;
-    font-family: sans-serif;
-    background: #414141;
-    width: 100%;
-    padding: 1.5rem 5rem;
-    height: min-content;
-    border-radius: .3rem;
-    box-shadow: .5rem .5rem .5rem rgba(50, 50, 100, .5);
-    margin: 0 auto 2.65rem auto;}
+color: #fff;
+font-weight: 900;
+font-size: 1.8rem;
+border: none;
+font-family: sans-serif;
+background: #414141;
+width: 100%;
+padding: 1.5rem 5rem;
+height: min-content;
+border-radius: .3rem;
+box-shadow: .5rem .5rem .5rem rgba(50, 50, 100, .5);
+margin: 0 auto 2.65rem auto;}
 
 #resultado
 {display: none;
-    background: #fff;
+background: #fff;
 color: #3394b3;
 width: 100%;
 text-align: center;
@@ -568,15 +567,15 @@ box-shadow: .5vh .5vh 1vh rgba(0, 0, 0, .35);}
 
 .navegacion_serie h2
 {color: #3394b3;
-    margin: 2.5rem 0 2.5rem 0;
-    padding: 0;
-    font-family: sans-serif;
-    font-weight: 900;
-    font-size: 3.5rem;
-    line-height: 4.5rem;
-    text-align: left;
-    border: none;
-    letter-spacing: -.15rem;}
+margin: 2.5rem 0 2.5rem 0;
+padding: 0;
+font-family: sans-serif;
+font-weight: 900;
+font-size: 3.5rem;
+line-height: 4.5rem;
+text-align: left;
+border: none;
+letter-spacing: -.15rem;}
 
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
@@ -585,20 +584,20 @@ box-shadow: .5vh .5vh 1vh rgba(0, 0, 0, .35);}
 
 .pie_de_pagina
 {display: flex;
-    flex-direction: column;
-    background: #414141;
-    height: max-content;
+flex-direction: column;
+background: #414141;
+height: max-content;
 justify-content: center;
 align-items: flex-start;
 padding: 3rem 2rem 0 2rem;}
 
 .pie_de_pagina a
 {display: block;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 900;
-    font-size: 1.5rem;
-    margin: 0 0 2rem 0;
+color: #fff;
+text-decoration: none;
+font-weight: 900;
+font-size: 1.5rem;
+margin: 0 0 2rem 0;
 }
 
 /*-------------------------------------------------*/
