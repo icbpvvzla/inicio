@@ -18,7 +18,6 @@ menuFinal.innerHTML = `
     <a href="creencias.html">Creencias</a>
     <a href="recursos.html">Recursos</a>
     <a href="trabajo.html">Trabajo</a>
-    <a href="contacto.html">Contacto</a>
     <a href="apoya.html">Apoya</a>
 </nav>`;
 
