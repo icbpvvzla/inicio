@@ -12,8 +12,7 @@ cabeceraGeneral.innerHTML = `
 
 menuFinal.innerHTML = `
 <nav>
-    <h2>Menú general</h2>
-    <a href="aprendiendo_de_salomon_2.html">Último sermón</a>
+    <a href="aprendiendo_de_salomon_2.html">Última publicación</a>
     <a href="index.html">Inicio</a>
     <a href="iglesias.html">Iglesias</a>
     <a href="creencias.html">Creencias</a>
@@ -24,16 +23,8 @@ menuFinal.innerHTML = `
 </nav>`;
 
 pieDePaginas.innerHTML = `
-    <nav>
-        <a href="aprendiendo_de_salomon_1.html">Último sermón</a>
-        <a href="index.html">Inicio</a>
-        <a href="iglesias.html">Iglesias</a>
-        <a href="creencias.html">Creencias</a>
-        <a href="recursos.html">Recursos</a>
-        <a href="trabajo.html">Trabajo</a>
-        <a href="contacto.html">Contacto</a>
-        <a href="apoya.html">Apoya</a>
-    </nav>`;
+    <p>ipvvenezuela@gmail.com</p>
+    `;
 
 //CONSTANTES Y FUNCIONES PARA BOTONES DE CABECERA
 //CONSTANTES Y FUNCIONES PARA BOTONES DE CABECERA
@@ -45,7 +36,7 @@ pieDePaginas.innerHTML = `
 //CONSTANTES Y FUNCIONES PARA BOTONES DE CABECERA
 
 const botonMenuCabecera = document.querySelector("#menu_cabecera");
-const menuInicio = document.querySelector("#titulo_menu");
+const menuInicio = document.querySelector(".navegacion_movil");
 
 botonMenuCabecera.addEventListener("click", function () {
     menuInicio.scrollIntoView({
@@ -54,26 +45,3 @@ botonMenuCabecera.addEventListener("click", function () {
         inline: "end"
     })
 });
-
-//FUNCIÓN PARA QUIZZ
-//FUNCIÓN PARA QUIZZ
-//FUNCIÓN PARA QUIZZ
-//FUNCIÓN PARA QUIZZ
-//FUNCIÓN PARA QUIZZ
-//FUNCIÓN PARA QUIZZ
-
-const contenedorPuntuacionP1 = document.querySelector("#resultado");
-const puntuacionP1 = "hola";
-const pregunta1 = document.querySelector("#pregunta_1");
-
-function mostrarResultados() {
-    if (!document.querySelector("#p1o3").checked) {
-        contenedorPuntuacionP1.innerHTML = "Lo sentimos, respuesta incorrecta";
-    } else {
-        contenedorPuntuacionP1.innerHTML = "¡Respuesta correcta!";
-    }
-};
-
-function mostrarContenedor() {
-        contenedorPuntuacionP1.style.display = "block";
-};
