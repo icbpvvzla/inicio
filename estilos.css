@@ -45,7 +45,7 @@ width: 100vw;
 border-radius: .30rem;
 position: relative;
 z-index: 100;
-padding: 0 2rem;
+padding: 0 20px 0 20px;
 margin: auto;
 justify-content: space-between;
 align-items: center;
@@ -221,7 +221,6 @@ padding: 0 0 0 13px;}
 height: 140px;
 margin: auto;}
 
-
 #texto_portada_index
 {position: relative;
   top: 180px;
@@ -239,6 +238,28 @@ color: #414141;}
 
 #linea_4
 {letter-spacing: .7px;}
+
+
+#portada2
+{display: block;
+  position: relative;
+  background: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100vw;}
+
+#texto_portada2
+{position: relative;
+  top: 300px;
+  margin: 0px auto;
+font-family: CinzelDecorative-Bold;
+font-style: normal;
+font-size: 31px;
+line-height: 30px;
+font-weight: 550;
+text-align: center;
+color: #414141;}
 
 /*-----------------RECURSOS-------------------------------------------------------------------------------------------------------------------*/
 /*-----------------RECURSOS-------------------------------------------------------------------------------------------------------------------*/
