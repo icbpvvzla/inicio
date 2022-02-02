@@ -45,7 +45,7 @@ width: 100vw;
 border-radius: .30rem;
 position: relative;
 z-index: 100;
-padding: 0 20px 0 20px;
+padding: 0 25px 0 20px;
 margin: auto;
 justify-content: space-between;
 align-items: center;
@@ -67,9 +67,8 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 height: 20px;
-width: 20px;
+width: 17.5px;
 background: #414141;
-border-radius: 3px;
 border: none;
 cursor: pointer;
 margin: 0;}
@@ -139,7 +138,7 @@ color: #414141;}
 
 #texto_portada2
 {position: relative;
-  top: 300px;
+  top: 275px;
   margin: 0px auto;
 font-family: CinzelDecorative-Bold;
 font-style: normal;
@@ -148,6 +147,8 @@ line-height: 30px;
 font-weight: 550;
 text-align: center;
 color: #414141;}
+
+
 
 /*-----------------RECURSOS-------------------------------------------------------------------------------------------------------------------*/
 /*-----------------RECURSOS-------------------------------------------------------------------------------------------------------------------*/
@@ -162,7 +163,16 @@ color: #414141;}
 {background: #414141;
   color: #fff;
   box-sizing: border-box;
-padding: 50px 20px 20px 20px;}
+padding: 50px 20px 40px 20px;}
+
+.bandeja_recursos a
+{text-decoration: none;}
+
+.bandeja_recursos audio
+{width: 300px;
+  color: #3394b3;
+margin: 10px auto -5px auto;
+}
 
 .encabezado_recursos
 {display: block ;
@@ -237,6 +247,50 @@ font-weight: 900;
 box-shadow: 0 0px 10px 0px rgba(0, 0, 0, .5);}
 
 
+
+
+
+
+.etiqueta_cancion
+{ background: #fff;
+position: relative;
+margin: 20px auto 35px auto;
+border: none 1px #ccc;
+border-radius: 10px;
+width: 300px;
+box-sizing: border-box;
+padding: 0 0 5px 0;
+box-shadow: .5rem .5rem .5rem rgba(0, 0, 0, .5);}
+
+.etiqueta_cancion h2
+{display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  background: #3394b3;
+  border-radius: 9px 9px 0 0;
+font-size: 16.5px;
+margin: 0 0 30px 0;
+font-weight: 900;
+height: 80px;
+width: 300px;}  
+
+.etiqueta_cancion p
+{text-align: left;
+  color: #414141;
+font-size: 16.5px;
+line-height: 20px;
+margin: 0 20px 20px 20px;
+font-weight: 300;}
+
+.etiqueta_cancion br
+{text-align: left;
+  color: #414141;
+font-size: 16.5px;
+line-height: 10px;
+margin: 0 20px 20px 20px;
+font-weight: 300;}
 /*--------------ARTÍCULOS----------------------------------------------------------------------------------------------------------------------*/
 /*--------------ARTÍCULOS----------------------------------------------------------------------------------------------------------------------*/
 /*--------------ARTÍCULOS----------------------------------------------------------------------------------------------------------------------*/
@@ -433,7 +487,7 @@ letter-spacing: -.15rem;}
 text-align: center;
 margin: 0 auto 30px auto;
 font-weight: 600;
-font-style: italic;}
+font-style: normal;}
 
 /*-----------------MENU-----------------------------------------------------------------------------------------------------------------------*/
 /*-----------------MENU-----------------------------------------------------------------------------------------------------------------------*/
@@ -473,9 +527,9 @@ height: 85px;
 font-size: 16.5px;
 font-weight: 550;
 font-family: sans-serif;
-letter-spacing: .1rem;
 line-height: 85px;
-border: none;
+border-bottom: solid 1.5px #1283a2;
+border-top: solid 1.5px #1283a2;
 text-decoration: none;
 padding: 0 0 0 0;
 box-sizing: border-box;
@@ -488,19 +542,18 @@ text-decoration: none;
 background: #fff;
 color: #414141;
 height: 5rem;
-width: 300px;
+width: 100vw;
 height: 50px;
 font-size: 16.6px;
 font-weight: 550;
 font-family: sans-serif;
-letter-spacing: .1rem;
 line-height: 35px;
 border:none;
 text-decoration: none;
 padding: 0 0 0 0;
 box-sizing: border-box;
 margin: 0 auto 17.5px auto;
-box-shadow: 0rem .15rem 0rem rgba(0, 0, 0, .15);}
+box-shadow: 0rem 1px 0rem rgba(0, 0, 0, .05);}
 
 .navegacion_movil a:nth-child(6)
 {display: block;
@@ -514,14 +567,12 @@ height: 50px;
 font-size: 16.5px;
 font-weight: 550;
 font-family: sans-serif;
-letter-spacing: .1rem;
 line-height: 35px;
 border: none;
 text-decoration: none;
 padding: 0 0 0 0;
 box-sizing: border-box;
-margin: 0 auto 0 auto;
-box-shadow: 0rem .75rem .75rem rgba(0, 0, 0, .35);}
+margin: 0 auto 0 auto;}
 
 .navegacion_movil a:last-child
 {display: block;
@@ -536,14 +587,13 @@ height: 80px;
 font-size: 16.5px;
 font-weight: 550;
 font-family: sans-serif;
-letter-spacing: .1rem;
 line-height: 75px;
-border: none;
+border-bottom: solid 1.5px #333;
+border-top: solid 1.5px #1283a2;
 text-decoration: none;
 padding: 0 0 0 0;
 box-sizing: border-box;
-margin: 0 0 0 0;
-box-shadow: 0rem .75rem .75rem rgba(0, 0, 0, .35);}
+margin: 0 0 0 0;}
 
 
 /*-------------------------------------------------*/
