@@ -185,7 +185,7 @@ margin: 10px auto 0px auto;
   height: 80px;
   width: 300px;
   color: #fff;
-font-size: 16.5px;
+font-size: 1.65rem;
 margin: 0 auto 15px auto;
 font-weight: 900;
 box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, .5);}
@@ -209,7 +209,7 @@ box-shadow: .5rem .5rem .5rem rgba(0, 0, 0, .5);}
   color: #fff;
   background: #3394b3;
   border-radius: 9px 9px 0 0;
-font-size: 16.5px;
+  font-size: 1.65rem;
 margin: 0 0 30px 0;
 font-weight: 900;
 height: 80px;
@@ -218,7 +218,7 @@ width: 300px;}
 .etiqueta_serie p
 {text-align: left;
   color: #414141;
-font-size: 15px;
+  font-size: 1.65rem;
 line-height: 20px;
 margin: 0 20px 20px 20px;
 font-weight: 300;}
@@ -226,7 +226,7 @@ font-weight: 300;}
 .etiqueta_serie p:first-of-type
 {text-align: left;
   color: #414141;
-  font-size: 15px;
+  font-size: 1.65rem;
 margin: 0 25px 30px 25px;
 line-height: 24px;
 font-weight: 550;}
@@ -236,14 +236,13 @@ font-weight: 550;}
   text-align: center;
   text-decoration: none;
   border: none;
-  font-size: 15px;
+  font-size: 1.65rem;
   background: #3394b3;
   border-radius: 0 0 9px 9px;
   line-height: 80px;
   height: 80px;
   width: 300px;
   color: #fff;
-font-size: 16.5px;
 margin: 0 0 10px 0;
 font-weight: 900;
 box-shadow: 0 0px 10px 0px rgba(0, 0, 0, .5);}
@@ -272,7 +271,7 @@ box-shadow: .5rem .5rem .5rem rgba(0, 0, 0, .5);}
   color: #fff;
   background: #3394b3;
   border-radius: 9px 9px 0 0;
-font-size: 16.5px;
+  font-size: 1.65rem;
 margin: 0 0 30px 0;
 font-weight: 900;
 height: 80px;
@@ -281,7 +280,7 @@ width: 300px;}
 .etiqueta_cancion p
 {text-align: left;
   color: #414141;
-font-size: 16.5px;
+  font-size: 1.65rem;
 line-height: 20px;
 margin: 0 20px 20px 20px;
 font-weight: 300;}
@@ -310,7 +309,7 @@ box-shadow: .5rem .5rem .5rem rgba(0, 0, 0, .5);}
   color: #fff;
   background: #3394b3;
   border-radius: 9px 9px 0 0;
-font-size: 16.5px;
+  font-size: 1.65rem;
 margin: 0 0 30px 0;
 font-weight: 900;
 height: 80px;
@@ -319,7 +318,7 @@ width: 300px;}
 .etiqueta_creencias p
 {text-align: left;
   color: #414141;
-font-size: 16.5px;
+  font-size: 1.65rem;
 line-height: 20px;
 margin: 0 20px 20px 20px;
 font-weight: 300;}
@@ -329,7 +328,7 @@ font-weight: 300;}
   text-align: center;
   text-decoration: none;
   border: none;
-  font-size: 15px;
+  font-size: 1.65rem;
   background: #3394b3;
   border-radius: 0 0 9px 9px;
   line-height: 80px;
@@ -456,24 +455,24 @@ color: #414141;}
 
 .navegacion_serie a
 {display: block;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
   background: #fff;
   color: #414141;
   height: 5rem;
-  width: 300px;
+  width: 100vw;
   height: 50px;
   font-size: 16.6px;
   font-weight: 550;
   font-family: sans-serif;
   letter-spacing: .1rem;
-  line-height: 35px;
+  line-height: 25px;
   border:none
   text-decoration: none;
-  padding: 0 0 0 0;
+  padding: 0 0 0 30px;
   box-sizing: border-box;
   margin: 0 auto 17.5px auto;
-  box-shadow: 0rem .15rem 0rem rgba(0, 0, 0, .15);}
+  box-shadow: 0 1px 0px rgba(0, 0, 0, .1);}
 
 .navegacion_serie a:first-child
 {display: block;
@@ -495,28 +494,27 @@ text-decoration: none;
 padding: 0 0 0 0;
 box-sizing: border-box;
 margin: 0 0 20px 0;
-box-shadow: 0rem .75rem .5rem rgba(0, 0, 0, .75);}
+}
 
-.navegacion_serie a:nth-child(5)
+.navegacion_serie a:last-child
 {display: block;
-  position: relative;
-text-align: center;
-background: #fff;
-color: #414141;
-height: 5rem;
-width: 100vw;
-height: 50px;
-font-size: 16.5px;
-font-weight: 550;
-font-family: sans-serif;
-letter-spacing: .1rem;
-line-height: 35px;
-border: none;
-text-decoration: none;
-padding: 0 0 0 0;
-box-sizing: border-box;
-margin: 0 auto 0 auto;
-box-shadow: 0rem .75rem .75rem rgba(0, 0, 0, .35);}
+  text-align: left;
+  text-decoration: none;
+  background: #fff;
+  color: #414141;
+  height: 5rem;
+  width: 300px;
+  height: 50px;
+  font-size: 16.6px;
+  font-weight: 550;
+  font-family: sans-serif;
+  letter-spacing: .1rem;
+  line-height: 25px;
+  border:none
+  text-decoration: none;
+  padding: 0 0 0 0;
+  box-sizing: border-box;
+  margin: 0 auto 0px auto;}
 
 .navegacion_serie h2
 {color: #3394b3;
@@ -531,7 +529,7 @@ border: none;
 letter-spacing: -.15rem;}
 
 .texto_fondo_paginas
-{font-size: 16.5px;
+{font-size: 1.65rem;
   line-height: 25px;
 text-align: center;
 margin: 0 auto 30px auto;
