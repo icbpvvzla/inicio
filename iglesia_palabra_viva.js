@@ -21,8 +21,10 @@ menuFinal.innerHTML = `
     <a href="apoya.html">Apoya</a>
 </nav>`;
 
-pieDePaginas.innerHTML = `
-    <p>ipvvenezuela@gmail.com</p>
+pieDePaginas.innerHTML = `    
+<p>Correo: ipvvenezuela@gmail.com</p>
+<p>Instagram: icbpalabraviva</p>
+<p>Whatsapp: +58 424 917 2916</p>
     `;
 
 //CONSTANTES Y FUNCIONES PARA BOTONES DE CABECERA

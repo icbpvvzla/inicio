@@ -171,7 +171,7 @@ padding: 50px 20px 40px 20px;}
 .bandeja_recursos audio
 {width: 300px;
   color: #3394b3;
-margin: 10px auto -5px auto;
+margin: 10px auto 0px auto;
 }
 
 .encabezado_recursos
@@ -218,7 +218,7 @@ width: 300px;}
 .etiqueta_serie p
 {text-align: left;
   color: #414141;
-font-size: 16.5px;
+font-size: 15px;
 line-height: 20px;
 margin: 0 20px 20px 20px;
 font-weight: 300;}
@@ -226,6 +226,7 @@ font-weight: 300;}
 .etiqueta_serie p:first-of-type
 {text-align: left;
   color: #414141;
+  font-size: 15px;
 margin: 0 25px 30px 25px;
 line-height: 24px;
 font-weight: 550;}
@@ -235,6 +236,7 @@ font-weight: 550;}
   text-align: center;
   text-decoration: none;
   border: none;
+  font-size: 15px;
   background: #3394b3;
   border-radius: 0 0 9px 9px;
   line-height: 80px;
@@ -284,13 +286,60 @@ line-height: 20px;
 margin: 0 20px 20px 20px;
 font-weight: 300;}
 
-.etiqueta_cancion br
+
+
+
+
+
+.etiqueta_creencias
+{ background: #fff;
+position: relative;
+margin: 20px auto 35px auto;
+border: none 1px #ccc;
+border-radius: 10px;
+width: 300px;
+box-sizing: border-box;
+padding: 0 0 0 0;
+box-shadow: .5rem .5rem .5rem rgba(0, 0, 0, .5);}
+
+.etiqueta_creencias h2
+{display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  background: #3394b3;
+  border-radius: 9px 9px 0 0;
+font-size: 16.5px;
+margin: 0 0 30px 0;
+font-weight: 900;
+height: 80px;
+width: 300px;}  
+
+.etiqueta_creencias p
 {text-align: left;
   color: #414141;
 font-size: 16.5px;
-line-height: 10px;
+line-height: 20px;
 margin: 0 20px 20px 20px;
 font-weight: 300;}
+
+.etiqueta_creencias a
+{display: block ;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  font-size: 15px;
+  background: #3394b3;
+  border-radius: 0 0 9px 9px;
+  line-height: 80px;
+  height: 80px;
+  width: 300px;
+  color: #fff;
+font-size: 16.5px;
+margin: 0 0 10px 0;
+font-weight: 900;
+box-shadow: 0 0px 10px 0px rgba(0, 0, 0, .5);}
 /*--------------ARTÍCULOS----------------------------------------------------------------------------------------------------------------------*/
 /*--------------ARTÍCULOS----------------------------------------------------------------------------------------------------------------------*/
 /*--------------ARTÍCULOS----------------------------------------------------------------------------------------------------------------------*/
@@ -608,8 +657,10 @@ position: relative;
 z-index: -10;
 background: #414141;
 height: 175px;
+width: 100vw;
 justify-content: center;
-padding: 0 auto 0 auto;}
+box-sizing: border-box;
+padding: 0px auto 0 auto;}
 
 .pie_de_pagina p
 {display: block;
@@ -620,7 +671,19 @@ font-weight: 900;
 font-size: 1.65rem;
 box-sizing: border-box;
 padding: 0 0 0 0;
-margin: 0 0 0 0;
+margin: 0 0 5px 0;
+}
+
+.pie_de_pagina p:first-of-type
+{display: block;
+color: #fff;
+text-decoration: none;
+text-align: center;
+font-weight: 900;
+font-size: 1.65rem;
+box-sizing: border-box;
+padding: 0 0 0 0;
+margin: 15px 0 5px 0;
 }
 
 /*-------------------------------------------------*/
