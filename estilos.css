@@ -28,6 +28,11 @@ font-family: sans-serif;}
 /*-------------------------------------------------*/
 body
 {background: none;}
+
+i
+{text-decoration:underline;
+font-style:italic;
+font-weight:500;}
 /*-----------------CABECERA-------------------------------------------------------------------------------------------------------------------*/
 /*-----------------CABECERA-------------------------------------------------------------------------------------------------------------------*/
 /*-----------------CABECERA-------------------------------------------------------------------------------------------------------------------*/
@@ -365,7 +370,7 @@ margin: 2.5rem 0 0rem 0;
 padding: 0;
 font-family: sans-serif;
 font-weight: 900;
-font-size: 3rem;
+font-size: 3.5rem;
 line-height: 3.75rem;
 text-align: left;
 border: none;
@@ -377,7 +382,7 @@ margin: 2.5rem 0 0rem 0;
 padding: 0;
 font-family: sans-serif;
 font-weight: 900;
-font-size: 3rem;
+font-size: 3.5rem;
 line-height: 3.5rem;
 text-align: left;
 border: none;
@@ -389,7 +394,7 @@ margin: 2.5rem 0 0rem 0;
 padding: 0;
 font-family: sans-serif;
 font-weight: 900;
-font-size: 1.65rem;
+font-size: 2.5rem;
 line-height: 2.65rem;
 text-align: left;
 border: none;
