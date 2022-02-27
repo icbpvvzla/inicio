@@ -193,6 +193,8 @@ align-items:center;
   color: #fff;
 font-size: 1.65rem;
 margin: 0 auto 15px auto;
+padding: 0 1rem;
+box-sizing:border-box;
 font-weight: 900;
 box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, .5);}
 
@@ -304,7 +306,7 @@ border: none 1px #ccc;
 border-radius: 10px;
 width: 300px;
 box-sizing: border-box;
-padding: 0 0 0 0;
+padding: 0 1rem;
 box-shadow: .5rem .5rem .5rem rgba(0, 0, 0, .5);}
 
 .etiqueta_creencias h2
@@ -426,7 +428,10 @@ font-size:1.65rem;}
 
 .punto_articulo li
 {list-style-type:disc;
-padding: 0 0 0 1rem;}
+padding: 0 0 0 1rem;
+font-size:1.65rem;
+margin: 1.5rem 0;
+}
 
 a
 {text-decoration: underline;
