@@ -12,7 +12,7 @@ cabeceraGeneral.innerHTML = `
 
 menuFinal.innerHTML = `
 <nav>
-    <a href="creencias_esenciales_1.html">Última publicación</a>
+    <a href="creencias_esenciales_2.html">Última publicación</a>
     <a href="index.html">Inicio</a>
     <a href="iglesias.html">Iglesias</a>
     <a href="creencias.html">Creencias</a>
