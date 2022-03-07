@@ -5,7 +5,6 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="iglesia_palabra_viva.js" defer></script>
 	<link rel="stylesheet" href="estilos.css">
 	<meta name="theme-color" content="#3394b3">
 	<link rel="shortcut icon" type="image/svg" href="icono_ipvvenezuela.svg">
@@ -13,21 +12,22 @@
 	<title>Iglesia Palabra Viva</title>
 </head>
 
-<!-------------------------------------------------------------------------->
-
+<!----------------------------------	-------------------------------------->
 <body>
-
-	<!------------------------------------------------------------------------>
-	<header class="cabecera"></header>
-	<!------------------------------------------------------------------------>
-
-
-
+<!------------------------------------------------------------------------>
+	<header class="cabecera">
+		<a id="logo_cabecera" href="index.html">
+	    		<img src="LOGOipvvenezuela5.svg" alt="Logo de Iglesia Cristiana Bíblica Palabra Viva">
+		</a>
+		<button id="menu_cabecera">
+			<img src="icono_menu_cabecera.svg" alt="Icono para ir al menú de navegación de la web">
+		</button>
+	</header>
+<!------------------------------------------------------------------------>
 	<div id="portada_index">
 		<div id="logo_portada_index">
 			<img id="icono_logo_portada_index" src="icono_con_texto_ipvvenezuela.svg" alt="icono icbpv">
 		</div>
-
 		<div id="texto_portada_index">
 			<p>Iglesias edificadas
 				<br><span id="linea_2">sobre el fundamento</span>
@@ -37,12 +37,34 @@
 			</p>
 		</div>
 	</div>
-
-	<!------------------------------------------------------------------------>
-	<section class="navegacion_movil"></section>
-	<!------------------------------------------------------------------------>
-	<footer class="pie_de_pagina"></footer>
-	<!------------------------------------------------------------------------>
-
+<!------------------------------------------------------------------------>
+	<nav class="navegacion_movil">
+	    <a href="creencias_esenciales_3.html">Última publicación</a>
+	    <a href="index.html">Inicio</a>
+	    <a href="iglesias.html">Iglesias</a>
+	    <a href="creencias.html">Creencias</a>
+	    <a href="recursos.html">Recursos</a>
+	    <a href="trabajo.html">Trabajo</a>
+	    <a href="apoya.html">Apoya</a>
+	</nav>
+<!------------------------------------------------------------------------>
+	<footer class="pie_de_pagina">
+		<p>Correo: ipvvenezuela@gmail.com</p>
+		<p>Instagram: icbpalabraviva</p>
+		<p>Whatsapp: +58 424 917 2916</p>
+	</footer>
+<!------------------------------------------------------------------------>
+	<script>
+		const botonMenuCabecera = document.querySelector("#menu_cabecera");
+		const menuInicio = document.querySelector(".navegacion_movil");
+		botonMenuCabecera.addEventListener("click", function () {
+		    menuInicio.scrollIntoView({
+			   behavior: "smooth",
+			   block: "center",
+			   inline: "end"
+		    })
+		});
+	</script>
+<!------------------------------------------------------------------------>
 </body>
 </html>
